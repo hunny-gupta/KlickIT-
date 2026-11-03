@@ -1,0 +1,7 @@
+{
+  "name": "KLICKIT - Quick Commerce Brand",
+  "description": "Creative, modern, and interactive website for KLICKIT, an everyday essentials quick-commerce brand. Features 10-minute shop, marketing campaigns (ATL/BTL/Digital), and customer personas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

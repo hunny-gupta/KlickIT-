@@ -1,0 +1,91 @@
+# ========================================================
+# KLICKIT Quick Commerce - robots.txt
+# Full crawl permissions enabled across all site paths.
+# Explicitly allowing all search crawlers, AI assistants,
+# LLMs, and conversational chatbots.
+# ========================================================
+
+# General Web Crawlers (Google, Bing, DuckDuckGo, Yahoo, Baidu, Yandex)
+User-agent: *
+Allow: /
+
+# OpenAI / ChatGPT Crawlers & Browsing Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google Gemini, Search & AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Perplexity AI Search & Answer Engine
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic Claude & Claude-Web
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Meta AI & Llama Web Crawlers
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Microsoft Copilot & Bing Search
+User-agent: Bingbot
+Allow: /
+
+# Apple Intelligence & Applebot
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Other Major AI Search, Training & Web Scrapers
+User-agent: CCBot
+Allow: /
+
+User-agent: Cohere-training
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Generative Engine Optimization (GEO) & Machine-Readable Knowledge Endpoints
+# Specifically designed for LLM context ingestion (ChatGPT, Perplexity, Gemini, Claude)
+# See standard: https://llmstxt.org/
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Sitemap & LLM References
+Sitemap: https://klickit.in/sitemap.xml
+Sitemap: /sitemap.xml
